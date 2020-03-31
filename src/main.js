@@ -369,8 +369,8 @@ const createLoadMoreButtonTemplate = () => {
   );
 };
 
-const render = (container, template, place = `beforeend`) => {
-  container.insertAdjacentHTML(place, template);
+const render = (container, htmlData, place = `beforeend`) => {
+  container.insertAdjacentHTML(place, htmlData);
 };
 
 const siteMainElement = document.querySelector(`.main`);
